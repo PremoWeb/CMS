@@ -1,0 +1,27 @@
+{
+    "name": "premoweb/cms",
+    "description": "A very capable, ultra-light framework to build performant websites in PHP.",
+    "homepage": "https://premoweb.com/software/cms/",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Premoweb\\Cms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nick Maietta",
+            "email": "nick@premoweb.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "bcosca/fatfree-core": "^3.8"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+	"config": {
+		"vendor-dir": "demo/vendor/"
+	}
+}
