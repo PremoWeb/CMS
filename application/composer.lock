@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c23483e459758d76cbb3ae111d429305",
+    "packages": [
+        {
+            "name": "premoweb/cms",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "../library",
+                "reference": "2e00174551d9470ea3553816c8133417f61ce193"
+            },
+            "require": {
+                "php": ">=8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PremoWeb\\CMS\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nick Maietta",
+                    "email": "nick@premoweb.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A very capable, ultra-light framework to build performant websites in PHP.",
+            "homepage": "https://premoweb.com/software/cms/",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

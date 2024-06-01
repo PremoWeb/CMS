@@ -1,0 +1,14 @@
+{
+    "require": {
+        "premoweb/cms": "1.0"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../library",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
+}
