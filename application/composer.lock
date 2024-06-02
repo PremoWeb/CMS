@@ -7,14 +7,50 @@
     "content-hash": "7aa3524315df28baab259c3e09b0bb3f",
     "packages": [
         {
+            "name": "bcosca/fatfree-core",
+            "version": "3.8.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/f3-factory/fatfree-core.git",
+                "reference": "774692ce7698904d3cb35bbd4f79376bb17eeddc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/f3-factory/fatfree-core/zipball/774692ce7698904d3cb35bbd4f79376bb17eeddc",
+                "reference": "774692ce7698904d3cb35bbd4f79376bb17eeddc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "."
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+            "homepage": "http://fatfreeframework.com/",
+            "support": {
+                "issues": "https://github.com/f3-factory/fatfree-core/issues",
+                "source": "https://github.com/f3-factory/fatfree-core/tree/3.8.2"
+            },
+            "time": "2023-07-23T22:11:30+00:00"
+        },
+        {
             "name": "premoweb/cms",
             "version": "0.0.1",
             "dist": {
                 "type": "path",
                 "url": "..",
-                "reference": "ba12656e9755fec1903f42e1d4f7257762a85bf6"
+                "reference": "a4afa042f6ed8e3d7e9c6b2e4958529215e3fbd8"
             },
             "require": {
+                "bcosca/fatfree-core": "^3.8",
                 "php": ">=8.3"
             },
             "type": "library",

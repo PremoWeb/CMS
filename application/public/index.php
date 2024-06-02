@@ -6,6 +6,9 @@ use PremoWeb\CMS\CMS;
 
 $cms = new CMS();
 
+$fw = Base::instance();
+print_r($fw);
+
 // Display welcome message
 echo $cms->welcome() . "<br>";
 
