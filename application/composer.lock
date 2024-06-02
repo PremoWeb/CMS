@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c23483e459758d76cbb3ae111d429305",
+    "content-hash": "7aa3524315df28baab259c3e09b0bb3f",
     "packages": [
         {
             "name": "premoweb/cms",
-            "version": "1.0.0",
+            "version": "0.0.1",
             "dist": {
                 "type": "path",
-                "url": "../library",
-                "reference": "2e00174551d9470ea3553816c8133417f61ce193"
+                "url": "..",
+                "reference": "ba12656e9755fec1903f42e1d4f7257762a85bf6"
             },
             "require": {
                 "php": ">=8.3"
@@ -20,7 +20,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "PremoWeb\\CMS\\": "src/"
+                    "PremoWeb\\CMS\\": "library/"
                 }
             },
             "license": [

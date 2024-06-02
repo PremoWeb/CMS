@@ -1,14 +1,17 @@
 {
-    "require": {
-        "premoweb/cms": "1.0"
+    "config": {
+        "vendor-dir": "public/vendor"
     },
     "repositories": [
         {
             "type": "path",
-            "url": "../library",
+            "url": "../",
             "options": {
                 "symlink": true
             }
         }
-    ]
+    ],
+    "require": {
+        "premoweb/cms": "*"
+    }
 }

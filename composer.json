@@ -4,10 +4,10 @@
     "homepage": "https://premoweb.com/software/cms/",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "autoload": {
         "psr-4": {
-            "PremoWeb\\CMS\\": "src/"
+            "PremoWeb\\CMS\\": "library/"
         }
     },
     "require": {
@@ -20,5 +20,6 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
